@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Noto+Serif');
+
+body{
+  background-color: #093511;
+}
+
+#container{
+  max-width: 900px;
+  min-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  /*overflow: auto;*/
+}
+
+header{
+  background-color: #093511;
+}
+
+nav{
+  position: absolute;
+  top:0;
+  width:900px;
+  margin: 0 auto;
+}
+
+nav li{
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover{
+  background-color: white;
+  color: #470608;
+}
+
+main{
+  margin-top: 60px;
+  position: relative;
+}
+
+img{
+  height: 280px;
+  width: auto;
+  border: 3px solid black;
+  margin: 0 8px;
+}
+
+p{
+  font-family: 'Noto Serif',serif;
+  padding: 5px 30px 5px 30px;
+}
+
+li{
+  font-family: 'Noto Serif',serif;
+  padding-left: 0;
+}
+
+h1,h2{
+  font-family: 'Cedarville Cursive',cursive;
+  padding: 10px 0 0 30px;
+}
+
+h1{
+  margin-bottom: 0;
+  font-size: 40px;
+}
+
+h2{
+  font-size: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+
+
+.caption{
+  font-size: 12px;
+  margin: 0px;
+  font-style: italic;
+
+}
+
+#hiking,#swings{
+  margin-left: 30px;
+}
+
+#history,#restaurants{
+  width:55%;
+  float:left;
+  margin-right: 5%;
+}
+
+#history-pic,#restaurants-pic{
+  width:40%;
+  float:right;
+}
+
+#demographics{
+  clear: right;
+  width: 50%;
+  float: left;
+}
+
+#towns{
+  width: 50%;
+  float: right;
+}
+
+strong{
+  font-weight: bolder;
+}
+
+.no-bullet{
+  list-style: none;
+}
+
+#farms{
+  clear:both;
+}
+
+#events-1{
+  width:50%;
+  float: left;
+}
+
+#events-1{
+  width:50%;
+  float: right;
+}
+
+#fact-photos{
+  clear:both;
+}
