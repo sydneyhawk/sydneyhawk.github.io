@@ -27,6 +27,7 @@ nav li{
   display: inline-block;
   padding-right: 25px;
   padding-left: 20px;
+  color: white;
 }
 
 nav li a{
@@ -101,6 +102,11 @@ ul{
   clear:both;
 }
 
+a:hover{
+  background-color: #eee;
+  color: black;
+}
+
 /*styling applies to home page*/
 #hiking{
   margin-left: 30px;
@@ -166,7 +172,7 @@ ul{
 #restaurants-pic{
   width:40%;
   float:right;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 #lull{
@@ -184,12 +190,12 @@ ul{
   float: left;
 }
 
-#education-pics{
+#soccer{
   width: 50%;
   float:right;
   margin-top: 30px;
 }
 
 #class-photo{
-  margin-left: 140px;
+  margin-left: 130px;
 }
