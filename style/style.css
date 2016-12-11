@@ -120,14 +120,14 @@ a:hover{
 /*styling applies to facts page*/
 
 #history{
-  width:60%;
+  width:62%;
   float:left;
   margin-right: 2%;
-  margin-top: 15px;
+  margin-top: 0px;
 }
 
 #history-pic{
-  width:38%;
+  width:36%;
   float:right;
 }
 
